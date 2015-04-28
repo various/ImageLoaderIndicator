@@ -29,6 +29,7 @@
 		129077C21A73F135006516E0 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 129077B21A73F134006516E0 /* UIImageView+HighlightedWebCache.m */; };
 		129077C31A73F135006516E0 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 129077B41A73F134006516E0 /* UIImageView+WebCache.m */; };
 		129077C41A73F135006516E0 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 129077B61A73F134006516E0 /* UIView+WebCacheOperation.m */; };
+		7F17818A1AEDDC100091C084 /* CircularLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1781891AEDDC100091C084 /* CircularLoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		129077B41A73F134006516E0 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		129077B51A73F134006516E0 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		129077B61A73F134006516E0 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		7F1781891AEDDC100091C084 /* CircularLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularLoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				121A0ED91A4FFE1700E07EC5 /* LaunchScreen.xib */,
 				121A0ECE1A4FFE1700E07EC5 /* Supporting Files */,
 				129077991A73F134006516E0 /* ImageLoaderIndicator-Bridging-Header.h */,
+				7F1781891AEDDC100091C084 /* CircularLoaderView.swift */,
 			);
 			path = ImageLoaderIndicator;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				129077B81A73F134006516E0 /* SDImageCache.m in Sources */,
 				121A0ED31A4FFE1700E07EC5 /* ViewController.swift in Sources */,
 				129077381A73A886006516E0 /* CustomImageView.swift in Sources */,
+				7F17818A1AEDDC100091C084 /* CircularLoaderView.swift in Sources */,
 				129077BA1A73F134006516E0 /* SDWebImageDecoder.m in Sources */,
 				129077C11A73F135006516E0 /* UIImage+MultiFormat.m in Sources */,
 				129077BC1A73F134006516E0 /* SDWebImageDownloaderOperation.m in Sources */,
